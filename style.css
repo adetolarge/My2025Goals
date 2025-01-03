@@ -2,14 +2,14 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 20px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0%;
     background: #f4f4f4;
     color: #333;
   }
   
   header {
-    background: #007bff;
+    background: #3999ff;
     color: white;
     padding: 20px;
     text-align: center;
@@ -50,10 +50,13 @@ body {
     color: white;
     border: none;
     cursor: pointer;
+    box-shadow: inset;
   }
   
   form button:hover {
-    background: #0056b3;
+    background: #4085ce;
+    margin: auto;
+    border-radius: 10px;
   }
   
   /* Goals List */
