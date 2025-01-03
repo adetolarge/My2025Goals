@@ -7,9 +7,15 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Array to store goals
     let goals = [
-      { title: "Advance AI/ML skills", progress: 30 },
+      { title: "Complete my B.eng", progress: 90 },
+      { title: "Advance AI/ML skills", progress: 60 },
       { title: "Exercise 3 times a week", progress: 50 },
-      { title: "Read 12 books", progress: 20 }
+      { title: "Read at least 12 books", progress: 0 },
+      { title: "Take my emotional life serious, meet Temi's mom and siblings.", progress: 10 },
+      { title: "Improve my golf game by playing at least 18 holes per week", progress: 0 },
+      { title: "Start NYSC at Abuja (Under preview)", progress: 0 },
+      { title: "Secure an internship at a top tech company", progress: 60 },
+      { title: "Spiritual growth: Work more on the rescue of the perishing and caring for the needy", progress: 50 }
     ];
   
     // Function to render goals
