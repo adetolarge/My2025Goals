@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const addGoalForm = document.querySelector("#add-goal-form");
     const progressSection = document.querySelector("#progress");
   
+    
     // Array to store goals
     let goals = [
       { title: "Complete my B.eng", progress: 90 },
@@ -18,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
       { title: "Spiritual growth: Work more on the rescue of the perishing and caring for the needy", progress: 50 }
     ];
   
+
     // Function to render goals
     function renderGoals() {
       goalsList.innerHTML = ""; // Clear the list
